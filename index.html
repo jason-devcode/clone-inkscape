@@ -1,13 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inkscape Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <title>Inkscape Clone</title>
   </head>
   <body>
-    <header class="header" ></header>
+    <header class="header">
+      <div class="header-contacts">
+        <div class="header-contacts-container">
+          <nav>
+            <a href="https://inkscape.app/es/quienes-somos/">Sobre nosotros</a>
+            | <a href="https://inkscape.app/es/contacto/">Contacto</a> |
+            <a href="https://inkscape.app/es/archivo/">Archivo</a>
+          </nav>
+          <div>
+            <a
+              lang="es-ES"
+              hreflang="es-ES"
+              href="https://inkscape.app/es/quienes-somos/"
+            >
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAflBMVEX/AAD9AAD3AADxAADrAAD/eXn9bGz8YWH8WVn6UVH5SEj5Pz/3NDT0Kir9/QD+/nL+/lT18lDt4Uf6+j/39zD39yf19R3n5wDxflXsZ1Pt4Y3x8zr0wbLs1NXz8xPj4wD37t3jmkvsUU/Bz6nrykm3vJ72IiL0FBTyDAvhAABEt4UZAAAAX0lEQVR4AQXBQUrFQBBAwXqTDkYE94Jb73+qfwVRcYxVQRBRToiUfoaVpGTrtdS9SO0Z9FR9lVy/g5c99+dKl30N5uxPuviexXEc9/msC7TOkd4kHu/Dlh4itCJ8AP4B0w4Qwmm7CFQAAAAASUVORK5CYII="
+                alt="Español"
+                width="16"
+                height="11"
+                style="width: 20px; height: auto"
+              />
+            </a>
+          </div>
+          <div>
+            <ul class="header-social-icons">
+              <li title="Compartir en Facebook">
+                <a
+                  class="header-contact-icon"
+                  href="https://m.facebook.com/sharer.php?u=https%3A%2F%2Finkscape.app%2Fes%2F"
+                  rel="nofollow"
+                  aria-label="Facebook"
+                  target="_blank"
+                  ><svg
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    fill="#000"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <path
+                      d="M455.27,32h-398.54l-1.01757e-06,4.11262e-10c-13.6557,0.00551914 -24.7245,11.0743 -24.73,24.73v398.54l-5.44608e-07,-0.00145325c0.00471643,13.6557 11.0728,24.7251 24.7285,24.7315h199.271v-176h-53.55v-64h53.55v-51c0,-57.86 40.13,-89.36 91.82,-89.36c24.73,0 51.33,1.86 57.51,2.68v60.43h-41.18c-28.12,0 -33.48,13.3 -33.48,32.9v44.35h67l-8.75,64h-58.25v176h124.6l-1.14527e-06,4.62819e-10c13.6557,-0.00551794 24.7245,-11.0743 24.73,-24.73v-398.54l5.45583e-07,0.00145607c-0.00471487,-13.6557 -11.0728,-24.7251 -24.7285,-24.7315Z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li title="Compartir en X">
+                <a
+                  class="header-contact-icon"
+                  href="https://x.com/share?text=Portada&amp;url=https%3A%2F%2Finkscape.app%2Fes%2F"
+                  rel="nofollow"
+                  aria-label="X"
+                  target="_blank"
+                  ><svg
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    fill="#000"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li title="Compartir en LinkedIn">
+                <a
+                  class="header-contact-icon"
+                  href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Finkscape.app%2Fes%2F&amp;title=Portada"
+                  rel="nofollow"
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  ><svg
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    fill="#000"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <path
+                      d="M444.17,32h-373.89c-20.43,0 -38.28,14.7 -38.28,34.89v374.72c0,20.3 17.85,38.39 38.28,38.39h373.78c20.54,0 35.94,-18.21 35.94,-38.39v-374.72c0.12,-20.19 -15.4,-34.89 -35.83,-34.89Zm-273.3,373.43h-64.18v-199.55h64.18Zm-29.87,-229.89h-0.46c-20.54,0 -33.84,-15.29 -33.84,-34.43c0,-19.49 13.65,-34.42 34.65,-34.42c21,0 33.85,14.82 34.31,34.42c-0.01,19.14 -13.31,34.43 -34.66,34.43Zm264.43,229.89h-64.18v-109.11c0,-26.14 -9.34,-44 -32.56,-44c-17.74,0 -28.24,12 -32.91,23.69c-1.75,4.2 -2.22,9.92 -2.22,15.76v113.66h-64.18v-199.55h64.18v27.77c9.34,-13.3 23.93,-32.44 57.88,-32.44c42.13,0 74,27.77 74,87.64Z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li title="Compartir en WhatsApp">
+                <a
+                  class="header-contact-icon"
+                  href="https://api.whatsapp.com/send?text=*Portada*+https%3A%2F%2Finkscape.app%2Fes%2F"
+                  rel="nofollow"
+                  aria-label="WhatsApp"
+                  target="_blank"
+                  ><svg
+                    version="1.1"
+                    viewBox="0 0 512 512"
+                    fill="#000"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <path
+                      d="M260.062,32c-121.457,0 -219.928,97.701 -219.928,218.232c-1.42109e-14,41.23 11.532,79.79 31.559,112.687l-39.693,117.081l121.764,-38.682c31.508,17.285 67.745,27.146 106.298,27.146c121.473,0 219.938,-97.715 219.938,-218.232c0,-120.531 -98.465,-218.232 -219.938,-218.232Zm109.362,301.11c-5.174,12.827 -28.574,24.533 -38.899,25.072c-10.314,0.547 -10.608,7.994 -66.84,-16.434c-56.225,-24.434 -90.052,-83.844 -92.719,-87.67c-2.669,-3.812 -21.78,-31.047 -20.749,-58.455c1.038,-27.413 16.047,-40.346 21.404,-45.725c5.351,-5.387 11.486,-6.352 15.232,-6.413c4.428,-0.072 7.296,-0.132 10.573,-0.011c3.274,0.124 8.192,-0.685 12.45,10.639c4.256,11.323 14.443,39.153 15.746,41.989c1.302,2.839 2.108,6.126 0.102,9.771c-2.012,3.653 -3.042,5.935 -5.961,9.083c-2.935,3.148 -6.174,7.042 -8.792,9.449c-2.92,2.665 -5.97,5.572 -2.9,11.269c3.068,5.693 13.653,24.356 29.779,39.736c20.725,19.771 38.598,26.329 44.098,29.317c5.515,3.004 8.806,2.67 12.226,-0.929c3.404,-3.599 14.639,-15.746 18.596,-21.169c3.955,-5.438 7.661,-4.373 12.742,-2.329c5.078,2.052 32.157,16.556 37.673,19.551c5.51,2.989 9.193,4.529 10.51,6.9c1.317,2.38 0.901,13.531 -4.271,26.359Z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li title="Compartir por correo electrónico">
+                <a
+                  class="header-contact-icon"
+                  href="mailto:?subject=Portada&amp;body=https%3A%2F%2Finkscape.app%2Fes%2F"
+                  rel="nofollow"
+                  aria-label="Email"
+                  target="_blank"
+                  ><svg
+                    version="1.1"
+                    viewBox="0 0 30 30"
+                    fill="#000"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <path
+                      d="M27.5,5h-25c-1.4,0 -2.5,1.1 -2.5,2.5v15c0,1.4 1.1,2.5 2.5,2.5h25c1.4,0 2.5,-1.1 2.5,-2.5v-15c0,-1.4 -1.1,-2.5 -2.5,-2.5Zm-16.7,10.9l-7,6c-0.1,0.1 -0.2,0.1 -0.3,0.1c-0.1,0 -0.3,-0.1 -0.4,-0.2c-0.2,-0.2 -0.2,-0.5 0.1,-0.7l7,-6c0.2,-0.2 0.5,-0.2 0.7,0.1c0.2,0.2 0.1,0.5 -0.1,0.7Zm3.9,0.1c-0.7,0 -1.5,-0.2 -2,-0.6l-9.5,-6.5c-0.2,-0.1 -0.3,-0.5 -0.1,-0.7c0.1,-0.2 0.4,-0.3 0.7,-0.1l9.5,6.5c0.8,0.6 2.1,0.6 2.9,0l10,-6.5c0.2,-0.2 0.5,-0.1 0.7,0.1c0.2,0.2 0.1,0.5 -0.1,0.7l-10,6.5c-0.6,0.4 -1.3,0.6 -2.1,0.6Zm12.2,5.8c-0.1,0.1 -0.2,0.2 -0.4,0.2c-0.1,0 -0.2,0 -0.3,-0.1l-7,-6c-0.2,-0.2 -0.2,-0.5 -0.1,-0.7c0.1,-0.2 0.5,-0.2 0.7,-0.1l7,6c0.2,0.2 0.3,0.5 0.1,0.7Z"
+                    ></path></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div></div>
+    </header>
     <main></main>
     <footer></footer>
   </body>

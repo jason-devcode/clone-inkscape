@@ -1,8 +1,68 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    color: currentColor;
+}
+
 .header {
     width: 100%;
+}
+/* 
+max-width: 1255px;
+    align-self: center !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+
+.header-contacts {
+    display: flex;
+    flex-direction: column;
     background-color: #000000;
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 30px;
+}
+
+.header-contacts-container {
+    display: flex;
+    width: 100%;
+    max-width: 1255px;
+    align-self: center !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(120, 120, 120);
+}
+
+.header-contact-icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-contact-icon svg {
+    fill: currentColor;
+    width: 15px;
+    height: 15px;
+}
+
+.header-social-icons {
+    display: flex;
 }
