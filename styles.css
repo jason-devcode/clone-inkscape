@@ -25,6 +25,21 @@ li {
     color: currentColor;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 5.7rem;
+    letter-spacing: -5px;
+    text-align: center;
+    line-height: 5.7rem;
+}
+
+.title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 8.6rem;
+}
+
 .header {
     width: 100%;
 }
@@ -41,6 +56,12 @@ li {
 
 .flex {
     display: flex;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .responsive-container {
