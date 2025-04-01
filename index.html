@@ -21,8 +21,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css" />
     <title>Inkscape Clone</title>
+
+    <link rel="stylesheet" href="styles/root.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+
+    <!-- components styles -->
+    <link rel="stylesheet" href="styles/header.css" />
   </head>
   <body>
     <header class="header">
@@ -202,11 +207,42 @@
     </header>
     <main class="flex-container">
       <section class="title-container">
-        <div class="responsive-container">
-          <h1>
+        <div class="triangle-shape triangle-left"></div>
+        <div class="triangle-shape triangle-right"></div>
+
+        <div class="responsive-container flex-col">
+          <h1 class="text">
             <span style="color: #f06060">Inkscape</span> Diseño Vectorial
             Gratuito y de código abierto
           </h1>
+          <p class="community-text text">
+            Comunidad de usuarios de Inkscape en español. Ayuda, plantillas,
+            tutoriales y mucho más.
+          </p>
+        </div>
+        <div class="responsive-container flex-col">
+          <img
+            width="1200"
+            height="742"
+            src="https://inkscape.app/wp-content/uploads/inkscape.webp"
+            alt="Interfaz de Inkscape en Mac."
+            decoding="async"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="text flex-col" style="column-count: 2; column-gap: 20px; font-size: 22.5px;">
+          <p>
+            Inkscape es un
+            <strong>editor de gráficos vectoriales de código abierto</strong>,
+            similar en capacidades a programas como Adobe Illustrator, CorelDraw
+            y Xara X. La diferencia principal es que Inkscape es
+            <strong>gratuito</strong> y se puede modificar bajo la Licencia
+            Pública General de GNU. Usa el formato de archivo Scalable Vector
+            Graphics (SVG), que es un estándar del W3C, y soporta
+            características avanzadas de SVG. Su interfaz está diseñada para ser
+            sencilla y fácil de usar, pero también es poderosa, ofreciendo una
+            amplia gama de herramientas para profesionales creativos.
+          </p>
         </div>
       </section>
     </main>
