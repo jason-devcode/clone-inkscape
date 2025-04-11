@@ -24,6 +24,10 @@
     margin-right: auto;
 }
 
+.responsive-direction {
+    flex-direction: row;
+}
+
 .hide-on-desktop {
     display: none;
 }
@@ -41,6 +45,10 @@
     .responsive-container {
         flex-wrap: wrap;
     }
+
+    .responsive-direction {
+        flex-direction: wrap;
+    }
 }
 
 
@@ -53,11 +61,38 @@
     .hide-on-mobile {
         display: none;
     }
+}
 
-    .title-container {
-        padding-top: 10px;
-        padding-right: 25px;
-        padding-bottom: 10px;
-        padding-left: 25px;
-    }
+.resources-cards {
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    color: white !important;    
+}
+
+.gradient-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(#f06060, #f3b561);
+}
+
+.gradient-card p {
+    color: white !important;    
+}
+
+.gradient-card .card-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: -2.2px;
+    line-height: 3rem;
+}
+
+.gradient-card .card-description {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 1rem 0px;
 }

@@ -1,0 +1,19 @@
+.triangle-shape {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    z-index: -10;
+}
+
+.triangle-left {
+    background-color: #8dbeb2;
+    height: 60%;
+}
+
+.triangle-right {
+    background-color: rgba(255, 240, 224, 0.7);
+    height: 80%;
+    transform: scaleX(-1);
+}
